@@ -1,0 +1,65 @@
+body {
+
+    background-color: burlywood;
+}
+
+header {
+    background: #CCCCCC;
+    padding: 30px ;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    position: absolute;
+    display: inline-block;
+    right: 90px;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 20px;
+    
+}
+
+nav li:hover {
+    font-size: 45px;
+    font-weight: bold;
+    background-color: beige;
+}
+
+main {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.p1 {
+    padding: 10px;
+}
+
+.p2 {
+    padding: 10px;
+}  
+
+.p3 {
+    padding: 10px;
+}
+
+footer {
+    background: #CCCCCC;
+    padding: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
