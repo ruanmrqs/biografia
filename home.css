@@ -1,0 +1,35 @@
+body {
+    background-color: #B3BAFE;
+}
+
+h1 {
+    position: relative;
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    top: 150px;
+}
+
+.botão {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+    background-color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow;
+    border-radius: 5px;
+    right: 50%;
+    left: 45%;
+    top: 300px;
+    vertical-align: top;
+    
+}
+
+.botão :hover {
+    background-color: yellow;
+    border-color: red;
+    font-size: 60px;
+}

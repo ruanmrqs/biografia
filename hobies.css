@@ -1,6 +1,7 @@
 body {
 
-    background:	midnightblue;
+    background: #F0F8FF;
+    
 }
 
 header {
@@ -38,40 +39,36 @@ nav li:hover {
 
 main {
     position: relative;
-    top: 30px;
-    font-size: 20px;
-    padding: 10px;
+    top: 100px;
+    left: 280px;
+   
+}
+
+main li {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    margin: 30px;
+    background: #CCCCCC;
+
+}
+
+main img {
+    width: 150px;
+    padding: 15px;
 }
 
 main p {
-    color: white;
-}
-
-.p1 {
     padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.p2 {
-    padding: 10px;
-}  
-
-.p3 {
-    padding: 10px;
+main :hover {
+    border-color: purple;
+    width: 200px;
 }
-
-footer {
-    background-image: url(eita.jpeg);
-    padding: 30px;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    color: black;
-
-}
-
-.sla li {
-    background-color: white;
-    display: inline;
-    position: static;
-}
-
